@@ -1,1 +1,1 @@
-<x:heroicon-o-adjustments style="color: #555"/>
+<x-heroicon-o-adjustments style="color: #555"/>

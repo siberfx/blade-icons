@@ -41,31 +41,31 @@ When upgrading to a new major version of the library, remember to read [`the upg
 Icons can be used a self-closing Blade components which will be compiled to SVG icons:
 
 ```blade
-<x:heroicon-o-adjustments/>
+<x-heroicon-o-adjustments/>
 ```
 
 You can also pass classes to your icon components:
 
 ```blade
-<x:heroicon-o-adjustments class="w-6 h-6 text-gray-500"/>
+<x-heroicon-o-adjustments class="w-6 h-6 text-gray-500"/>
 ```
 
 And even use inline styles:
 
 ```blade
-<x:heroicon-o-adjustments style="color: #555"/>
+<x-heroicon-o-adjustments style="color: #555"/>
 ```
 
 The solid icons can be referenced like this:
 
 ```blade
-<x:heroicon-s-adjustments/>
+<x-heroicon-s-adjustments/>
 ```
 
 Zondicon icons can be referenced like:
 
 ```blade
-<x:zondicon-add-outline/>
+<x-zondicon-add-outline/>
 ```
 
 ### Raw SVG Icons
