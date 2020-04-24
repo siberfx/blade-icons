@@ -8,7 +8,7 @@ set -e
 
 TYPE=$1
 ICONS=$(cd `dirname $0` && pwd)/../resources/images/$TYPE
-LENGTH=$(expr $(echo -n $TYPE | wc -m) + 1)
+LENGTH=$(expr $(echo -n $TYPE | wc -m) + 3)
 
 for FILE in $ICONS/*; do
   FILENAME=${FILE##*/}
