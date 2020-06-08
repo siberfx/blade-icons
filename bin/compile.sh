@@ -9,11 +9,11 @@ COMPONENTS=$RESOURCES/views/components
 
 echo "Compiling Heroicons..."
 
-for FILE in $RESOURCES/heroicons/outline-md/*; do
+for FILE in $RESOURCES/heroicons/outline/*; do
   FILENAME=${FILE##*/}
 
   # Compile raw outline icons...
-  RAW=$IMAGES/heroicons/heroicon-o-$(echo ${FILENAME} | cut -c 4-)
+  RAW=$IMAGES/heroicons/heroicon-o-$(echo ${FILENAME})
 
   cp $FILE $RAW
 
@@ -21,7 +21,7 @@ for FILE in $RESOURCES/heroicons/outline-md/*; do
   sed -i '' "1s/.*/$FIRST_LINE/" $RAW
 
   # Compile outline components...
-  BLADE=$COMPONENTS/heroicons/heroicon-o-$(echo ${FILENAME} | cut -f 1 -d '.' | cut -c 4-).blade.php
+  BLADE=$COMPONENTS/heroicons/heroicon-o-$(echo ${FILENAME} | cut -f 1 -d '.').blade.php
 
   cp $FILE $BLADE
 
@@ -29,11 +29,11 @@ for FILE in $RESOURCES/heroicons/outline-md/*; do
   sed -i '' "1s/.*/$FIRST_LINE/" $BLADE
 done
 
-for FILE in $RESOURCES/heroicons/solid-sm/*; do
+for FILE in $RESOURCES/heroicons/solid/*; do
   FILENAME=${FILE##*/}
 
   # Compile raw solid icons...
-  RAW=$IMAGES/heroicons/heroicon-s-$(echo ${FILENAME} | cut -c 4-)
+  RAW=$IMAGES/heroicons/heroicon-s-$(echo ${FILENAME})
 
   cp $FILE $RAW
 
@@ -41,7 +41,7 @@ for FILE in $RESOURCES/heroicons/solid-sm/*; do
   sed -i '' "1s/.*/$FIRST_LINE/" $RAW
 
   # Compile solid components...
-  BLADE=$COMPONENTS/heroicons/heroicon-s-$(echo ${FILENAME} | cut -f 1 -d '.' | cut -c 4-).blade.php
+  BLADE=$COMPONENTS/heroicons/heroicon-s-$(echo ${FILENAME} | cut -f 1 -d '.').blade.php
 
   cp $FILE $BLADE
 

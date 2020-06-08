@@ -1,1 +1,1 @@
-<x:heroicon-o-adjustments/>
+<x-heroicon-o-adjustments/>
