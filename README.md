@@ -1,4 +1,4 @@
-# Blade Icons
+# Blade Icons (abandoned)
 
 <a href="https://github.com/driesvints/blade-icons/actions"><img src="https://github.com/driesvints/blade-icons/workflows/tests/badge.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/driesvints/blade-icons"><img src="https://poser.pugx.org/driesvints/blade-icons/d/total.svg" alt="Total Downloads"></a>
