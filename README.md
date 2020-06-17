@@ -5,7 +5,7 @@
 <a href="https://packagist.org/packages/driesvints/blade-icons"><img src="https://poser.pugx.org/driesvints/blade-icons/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/driesvints/blade-icons"><img src="https://poser.pugx.org/driesvints/blade-icons/license.svg" alt="License"></a>
 
-> **Attention all users!** I've recently taken over Adam's Blade SVG package and have rewritten it to be the new foundation for Blade Icons. Please read the PR here: https://github.com/adamwathan/blade-svg/pull/50
+> **Abandoned!** This project has been moved to the Blade UI Kit organisation. [Check out the new repository](https://github.com/blade-ui-kit/blade-icons). Heroicons and Zondicons have been extracted into new separate packages [here](https://github.com/blade-ui-kit/blade-heroicons) and [here](https://github.com/blade-ui-kit/blade-zondicons). Please read the upgrade guides on the aforementioned packages to upgrade to the newer versions.
 
 A package to easily make use of SVG icons in your Laravel Blade views. 
 
