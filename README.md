@@ -94,4 +94,4 @@ Check out the [CHANGELOG](CHANGELOG.md) in this repository for all the recent ch
 
 ## License
 
-Blade Heroicons is open-sourced software licensed under [the MIT license](LICENSE.md).
+Blade Icons is open-sourced software licensed under [the MIT license](LICENSE.md).
